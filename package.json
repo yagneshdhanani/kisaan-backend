@@ -1,0 +1,30 @@
+{
+  "name": "kisaan-backend",
+  "version": "1.0.0",
+  "description": "An app that can help KISAAN",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "author": "Yagnesh Dhanani",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "gridfs-stream": "^1.1.1",
+    "joi": "^17.4.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.2",
+    "multer": "^1.4.2",
+    "multer-gridfs-storage": "^4.2.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {
+    "dotenv": "^9.0.0"
+  }
+}
